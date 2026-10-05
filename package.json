@@ -1,0 +1,25 @@
+{
+  "name": "malm-clothing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MalmApp commerce backend",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "check": "node --check server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "openid-client": "^5.6.5",
+    "qs": "^6.16.0",
+    "stripe": "^17.4.0"
+  }
+}
